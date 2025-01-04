@@ -1,6 +1,6 @@
 # Data Portfolio (Excel - SQL)
 
-![image].(https://github.com/fatimah35/accenture_project/blob/main/assets/images/excel)
+![Image].(https://github.com/fatimah35/accenture_project/blob/main/assets/images/excel.png)
 
 # Table of Contents
 ## Objective
