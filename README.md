@@ -1,6 +1,6 @@
 # Data Portfolio (Excel - SQL)
 
-![excel].(assets/images/excel.png).
+![excel].(assets/images/excel.png)
 
 # Table of Contents
 ## Objective
