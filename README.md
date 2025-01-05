@@ -32,5 +32,17 @@ The datasets are attached to the doc file.
 # Analysis Tools
 | Tool | Purpose 
 |------|-------------------------------------------|
-|Excel | Exploring the data and visualisation      |                        |
+|Excel | Exploring the data and visualisation      |                        
 | SQL  | Cleaning, testing, and analyzing the data |
+
+# Data Development
+## Pseudocode
+## -Get the data
+## -Explore the data in Excel
+## -Load the data into SQL Server
+## -Clean the data with SQL
+3# -Test the data with SQL
+## -Visualize the data in Excel
+## -Generate the findings based on the insights
+## -Write the documentation + commentary
+## -Publish the data to GitHub Pages
