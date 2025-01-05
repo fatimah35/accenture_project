@@ -36,13 +36,26 @@ The datasets are attached to the doc file.
 | SQL  | Cleaning, testing, and analyzing the data |
 
 # Data Development
-## Pseudocode
+## Pseudocode - General approach in creating analysis solution
 ## -Get the data
 ## -Explore the data in Excel
 ## -Load the data into SQL Server
 ## -Clean the data with SQL
-3# -Test the data with SQL
+## -Test the data with SQL
 ## -Visualize the data in Excel
 ## -Generate the findings based on the insights
 ## -Write the documentation + commentary
 ## -Publish the data to GitHub Pages
+# Data Exploration Notes - This was the stage i scanned of what's in the data, errors, inconcsistencies, bugs and corrupted characters
+- I was provided with three datasets, the reaction dataset,content dataset and reaction types dataset
+- There are at least 4 columns in each dataset that contain the data we need for this analysis, which signals we have everything we need from the file without needing to contact the client for any more data.
+- We have more data than we need, so some of these columns would need to be removed
+# Data Cleaning - The aim is to refine our dataset to ensure it is structured and ready for analysis.
+## The cleaned data should meet the following criteria and constraints:
+## - Contain neccasry columns for analysis
+## - Each content id must be unique in the content table(no duplicates)
+## - Reaction type must be character,reaction score must be int,content category must be character
+## - Column count,unique reactions (16),total reactions recorded after removing blanks (24754)
+## Below is a table outlining the constraints on our cleaned dataset:
+| Dataet           | Numbers of Rows | Columns |
+| Reactions        |
