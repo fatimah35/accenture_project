@@ -30,4 +30,4 @@ Data of contents uploaded on social buzz was provided. For this analysis;
 -Content Type.
 The datasets are attached to the doc file.
 # Analysis Tools
- Tool
+ | Tool | Purpose |
