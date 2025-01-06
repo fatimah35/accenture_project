@@ -77,3 +77,9 @@ from content ``
 [Images](assets/images/count_reactiontype.jpg)
 
 # Data Analysis
+For this analysis, we're going to focus on the questions below to get the information we need for our client:
+- What are the top five category ?
+To answer this, we need content id(content table and reactiontype table), content category column (content table), score column (reaction table), reaction type (reactiontypes table). To have all these column in a dataset, we need to join the three tables using sql
+[Images](assets/images/join_reaction_and_content.jpg)
+[Images](assets/images/joined_all_data.jpg)
+[Images](assets/images/new_dataset.jpg)
