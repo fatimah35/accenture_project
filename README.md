@@ -51,12 +51,13 @@ The datasets are attached to the doc file.
 - There are at least 4 columns in each dataset that contain the data we need for this analysis, which signals we have everything we need from the file without needing to contact the client for any more data.
 - We have more data than we need, so some of these columns would need to be removed
 # Data Cleaning - The aim is to refine our dataset to ensure it is structured and ready for analysis.
-## The cleaned data should meet the following criteria and constraints:
+## The cleaned data should meet the following criteria:
 ## - Contain neccasry columns for analysis
 ## - Each content id must be unique in the content table(no duplicates)
 ## - Reaction type must be character,reaction score must be int,content category must be character
 ## - Column count,unique reactions (16),total reactions recorded after removing blanks (24754)
-## Below is a table outlining the constraints on our cleaned dataset:
+![Image](
+## Below is a table outlining the featuress of our cleaned dataset:
 | Dataet           | Numbers of Columns | DataType                           | Nullable|
 |------------------|--------------------|------------------------------------|---------|
 | ReactionTypes    | 3                  | Varchar,Varchar, Integer           | No      |
