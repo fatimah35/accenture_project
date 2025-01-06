@@ -82,7 +82,12 @@ To answer this, we need content id(content table and reactiontype table), conten
 ![Images](assets/images/join_reaction_and_content.jpg)
 ![Images](assets/images/new_dataset.jpg)
 ![Images](assets/images/joined_all_data.jpg)
+
+
+
 After having the needed column in a single table, futher analysis was carried out using count(sum) function in sql. The top five categories are Animals, Science, healthy eating, technology and food.
+
+
 ![Images](assets/images/top_5.jpg)
 
 
@@ -90,7 +95,7 @@ After having the needed column in a single table, futher analysis was carried ou
 ![Images](assets/images/bottom_five.jpg)
 
 
-##- What is total count of contents by category ? Total number of contents uploaded on social buzz are shown below with Animals having the highest content of 1897 and public speaking with the least of 1217 
+## - What is total count of contents by category ? Total number of contents uploaded on social buzz are shown below with Animals having the highest content of 1897 and public speaking with the least of 1217 
 
 
 ![Images](assets/images/count_categories.jpg)
@@ -102,7 +107,11 @@ After having the needed column in a single table, futher analysis was carried ou
 Having answered our client questions, its important to put our analysis results in visuals that could be more understandable and communicable to client.
 Using excel, we were able to visualise our analysis results ;
 - What are the top 5 content categories
-![Images](assets/images/excel_5.jpg)  
+![Images](assets/images/excel_5.jpg)
+
+
+
+
 ![Images](assets/images/excel_five.jpg)
 # Recommendations
 With this result, its important to avoid Animal content being capitalized on, promoting other categories by collaborating with influencers or organizations in the  healthy eating, technology and food niche to amplify more engagements.
