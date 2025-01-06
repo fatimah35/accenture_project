@@ -44,6 +44,16 @@ The datasets are attached to the doc file.
 #### The aim is to refine our dataset to ensure it is structured and ready for analysis.
 ## The cleaned data should meet the following criteria:
 ## - Contain neccasry columns for analysis
+```sql
+*/ removing unneccsary columns */
+-- Checking and Removing unneccasry columns
+select *
+from content;
+--Removing user_id column;
+ALTER TABLE content
+DROP COLUMN user_id;
+select * 
+from content;
 ![Image](https://github.com/fatimah35/accenture_project/blob/main/assets/images/data_quality.jpg)
 ## - Each content id must be unique in the content table(no duplicates)
 ![Image](assets/images/duplicates.jpg)
