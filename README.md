@@ -11,8 +11,7 @@
 #### -Pseudocode
 #### -Data Exploration
 #### -Data Cleaning
-#### -Data Transformation
-## DataQuality Checks
+## Data Quality Checks
 ## Data Visualisation
 ## Data Anlaysis
 ## Recommendations
@@ -57,6 +56,7 @@ The datasets are attached to the doc file.
 ## - Reaction type must be character,reaction score must be int,content category must be character
 ## - Column count,unique reactions (16),total reactions recorded after removing blanks (24754)
 ![Image](https://github.com/fatimah35/accenture_project/blob/main/assets/images/data_quality.jpg)
+![Image](assets/images/duplicates.jpg)
 ## Below is a table outlining the featuress of our cleaned dataset:
 | Dataet           | Numbers of Columns | DataType                           | Nullable|
 |------------------|--------------------|------------------------------------|---------|
