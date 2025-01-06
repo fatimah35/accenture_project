@@ -78,16 +78,21 @@ from content ``
 
 # Data Analysis
 For this analysis, we're going to focus on the questions below to get the information we need for our client:
-- What are the top five category ?
+## - What are the top five category ?
 To answer this, we need content id(content table and reactiontype table), content category column (content table), score column (reaction table), reaction type (reactiontypes table). To have all these column in a dataset, we need to join the three tables using sql
 ![Images](assets/images/join_reaction_and_content.jpg)
 ![Images](assets/images/new_dataset.jpg)
 ![Images](assets/images/joined_all_data.jpg)
 After having the needed column in a single table, futher analysis was carried out using count(sum) function in sql. The top five categories are Animals, Science, healthy eating, technology and food.
 ![Images](assets/images/top_5.jpg)
-What are the bottom five category by scores ? The least five contents category are public speaking, veganism,tennis,dogs and studying
+## - What are the bottom five category by scores ? The least five contents category are public speaking, veganism,tennis,dogs and studying
 ![Images](assets/images/bottom_five.jpg)
-What is total count of contents by category ? Total number of contents uploaded on social buzz are shown below with Animals having the highest content of 1897 and public speaking with the least of 1217 
+##- What is total count of contents by category ? Total number of contents uploaded on social buzz are shown below with Animals having the highest content of 1897 and public speaking with the least of 1217 
 ![Images](assets/images/count_categories.jpg)
-What is the most uploaded content type by score? The most uploaded content type is photos (282,848)
+## - What is the most uploaded content type by score? The most uploaded content type is photos (282,848)
 ![Images](assets/images/content_type.jpg)
+# Data Visualisation
+Having answered our client questions, its important to put our analysis results in visuals that could be more understandable and communicable to client.
+Using excel, we were able to visualise our analysis results ;
+- What are the top 5 content categories
+  
