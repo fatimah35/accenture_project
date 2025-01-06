@@ -57,5 +57,7 @@ The datasets are attached to the doc file.
 ## - Reaction type must be character,reaction score must be int,content category must be character
 ## - Column count,unique reactions (16),total reactions recorded after removing blanks (24754)
 ## Below is a table outlining the constraints on our cleaned dataset:
-| Dataet           | Numbers of Rows | Columns |
-| Reactions        |
+| Dataet           | Numbers of Columns | DataType | Nullable                |
+| ReactionTypes    | 3                  | Varchar,Varchar, Integer           |
+| Reactions        | 4                  | Integer, Varchar, Varchar, Date    |
+| Content          | 4                  | Integer, Varchar, Varchar, Varchar |
