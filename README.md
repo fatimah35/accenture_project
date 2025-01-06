@@ -56,7 +56,7 @@ The datasets are attached to the doc file.
 ## - Each content id must be unique in the content table(no duplicates)
 ## - Reaction type must be character,reaction score must be int,content category must be character
 ## - Column count,unique reactions (16),total reactions recorded after removing blanks (24754)
-![Image](assets/images/data quality.png)
+![Image](https://github.com/fatimah35/accenture_project/blob/main/assets/images/data quality.png)
 ## Below is a table outlining the featuress of our cleaned dataset:
 | Dataet           | Numbers of Columns | DataType                           | Nullable|
 |------------------|--------------------|------------------------------------|---------|
