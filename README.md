@@ -57,6 +57,7 @@ The datasets are attached to the doc file.
 ## - Column count,unique reactions (16),total reactions recorded after removing blanks (24754)
 ![Image](https://github.com/fatimah35/accenture_project/blob/main/assets/images/data_quality.jpg)
 ![Image](assets/images/duplicates.jpg)
+![Image](assets/images/count_reactiontypes)
 ## Below is a table outlining the featuress of our cleaned dataset:
 | Dataet           | Numbers of Columns | DataType                           | Nullable|
 |------------------|--------------------|------------------------------------|---------|
