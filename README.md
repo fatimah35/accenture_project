@@ -85,3 +85,5 @@ To answer this, we need content id(content table and reactiontype table), conten
 ![Images](assets/images/joined_all_data.jpg)
 After having the needed column in a single table, futher analysis was carried out using count(sum) function in sql
 ![Images](assets/images/top_5.jpg)
+- what are the bottom five category ?
+![Images](assets/images/bottom_five.jpg)
