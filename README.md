@@ -52,7 +52,7 @@ from content;
 ALTER TABLE content
 DROP COLUMN user_id;
 select * 
-from content
+from content``
 
 ![Image](https://github.com/fatimah35/accenture_project/blob/main/assets/images/data_quality.jpg)
 ## - Each content id must be unique in the content table(no duplicates)
