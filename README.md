@@ -52,15 +52,20 @@ The datasets are attached to the doc file.
 # Data Cleaning - The aim is to refine our dataset to ensure it is structured and ready for analysis.
 ## The cleaned data should meet the following criteria:
 ## - Contain neccasry columns for analysis
-## - Each content id must be unique in the content table(no duplicates)
-## - Reaction type must be character,reaction score must be int,content category must be character
-## - Column count,unique reactions (16),total reactions recorded after removing blanks (24754)
 ![Image](https://github.com/fatimah35/accenture_project/blob/main/assets/images/data_quality.jpg)
+## - Each content id must be unique in the content table(no duplicates)
 ![Image](assets/images/duplicates.jpg)
+## - Total reactions recorded after removing blanks (24754)
 ![Image](assets/images/count_reactiontype.jpg)
-## Below is a table outlining the featuress of our cleaned dataset:
+## Below is a table outlining the features of our cleaned dataset:
 | Dataet           | Numbers of Columns | DataType                           | Nullable|
 |------------------|--------------------|------------------------------------|---------|
 | ReactionTypes    | 3                  | Varchar,Varchar, Integer           | No      |
 | Reactions        | 4                  | Integer, Varchar, Varchar, Date    | No      |
 | Content          | 4                  | Integer, Varchar, Varchar, Varchar | No      |
+# Data Validation
+## - Reaction type must be character,reaction score must be int,content category must be character
+[Images](assets/images/data_type_reaction.jpg)
+## - Column count,unique reactions (16)
+[Images](assets/images/column_count.jpg)
+[Images](assets/images/count_reaction_type.jpg)
