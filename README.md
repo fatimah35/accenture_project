@@ -12,8 +12,8 @@
 #### -Data Exploration
 #### -Data Cleaning
 ## Data Quality Checks
-## Data Visualisation
 ## Data Anlaysis
+## Data Visualisation
 ## Recommendations
 ## Conclusions
 
@@ -35,16 +35,6 @@ The datasets are attached to the doc file.
 | SQL  | Cleaning, testing, and analyzing the data |
 
 # Data Development
-## Pseudocode - General approach in creating analysis solution
-## -Get the data
-## -Explore the data in Excel
-## -Load the data into SQL Server
-## -Clean the data with SQL
-## -Test the data with SQL
-## -Visualize the data in Excel
-## -Generate the findings based on the insights
-## -Write the documentation + commentary
-## -Publish the data to GitHub Pages
 # Data Exploration Notes 
 #### This was the stage i scanned of what's in the data, errors, inconcsistencies, bugs and corrupted characters
 ## - I was provided with three datasets, the reaction dataset,content dataset and reaction types dataset
@@ -65,13 +55,15 @@ The datasets are attached to the doc file.
 | ReactionTypes    | 3                  | Varchar,Varchar, Integer           | No      |
 | Reactions        | 4                  | Integer, Varchar, Varchar, Date    | No      |
 | Content          | 4                  | Integer, Varchar, Varchar, Varchar | No      |
-# Data Validation
+# Data Quality Checks
 ## - Reaction type must be character,reaction score must be int,content category must be character
 [Images](assets/images/data_type_reaction.jpg)
 
 [Images](assets/images/datatype_reactionscore.jpg)
 
-## - Column count,unique reaction types (16)
+## - Column count, unique reaction types (16)
 [Images](assets/images/column_count.jpg)
 
 [Images](assets/images/count_reactiontype.jpg)
+
+# Data Analysis
