@@ -56,7 +56,7 @@ from content ``
 ![Image](https://github.com/fatimah35/accenture_project/blob/main/assets/images/data_quality.jpg)
 #### - Each content id must be unique in the content table(no duplicates)
 ![Image](assets/images/duplicates.jpg)
-## - Total reactions recorded after removing blanks (24754)
+#### - Total reactions recorded after removing blanks (24754)
 ![Image](assets/images/count_reactiontype.jpg)
 ## Below is a table outlining the features of our cleaned dataset:
 | Dataet           | Numbers of Columns | DataType                           | Nullable|
@@ -65,19 +65,19 @@ from content ``
 | Reactions        | 4                  | Integer, Varchar, Varchar, Date    | No      |
 | Content          | 4                  | Integer, Varchar, Varchar, Varchar | No      |
 # Data Quality Checks
-## - Reaction type must be character,reaction score must be int,content category must be character
+#### - Reaction type must be character,reaction score must be int,content category must be character
 ![Images](assets/images/data_type_reaction.jpg)
 
 ![Images](assets/images/datatype_reactionscore.jpg)
 
-## - Column count, unique reaction types (16)
+#### - Column count, unique reaction types (16)
 ![Images](assets/images/column_count.jpg)
 
 ![Images](assets/images/count_reactiontype.jpg)
 
 # Data Analysis
 For this analysis, we're going to focus on the questions below to get the information we need for our client:
-# - What are the top five category ?
+## - What are the top five category ?
 To answer this, we need content id(content table and reactiontype table), content category column (content table), score column (reaction table), reaction type (reactiontypes table). To have all these column in a dataset, we need to join the three tables using sql
 ![Images](assets/images/join_reaction_and_content.jpg)
 ![Images](assets/images/new_dataset.jpg)
