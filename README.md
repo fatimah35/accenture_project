@@ -35,14 +35,14 @@ The datasets are attached to the doc file.
 
 # Data Development
 # Data Exploration 
-## This was the stage i scanned of what's in the data, errors, inconcsistencies, bugs and corrupted characters
-## I was provided with three datasets, the reaction dataset,content dataset and reaction types dataset
-##  There are at least 4 columns in each dataset that contain the data we need for this analysis, which signals we have everything we need from the file without needing to contact the client for any more data.
-## We have more data than we need, so some of these columns would need to be removed.
+#### This was the stage i scanned of what's in the data, errors, inconcsistencies, bugs and corrupted characters
+#### I was provided with three datasets, the reaction dataset,content dataset and reaction types dataset
+####  There are at least 4 columns in each dataset that contain the data we need for this analysis, which signals we have everything we need from the file without needing to contact the client for any more data.
+#### We have more data than we need, so some of these columns would need to be removed.
 # Data Cleaning 
-## The aim is to refine our dataset to ensure it is structured and ready for analysis.
-## The cleaned data should meet the following criteria:
-## - Contain neccasry columns for analysis
+#### The aim is to refine our dataset to ensure it is structured and ready for analysis.
+#### The cleaned data should meet the following criteria:
+#### - Contain neccasry columns for analysis
 `` sql
 /* Checking and Removing unneccasry columns*/
 select *
@@ -54,7 +54,7 @@ select *
 from content ``
 
 ![Image](https://github.com/fatimah35/accenture_project/blob/main/assets/images/data_quality.jpg)
-## - Each content id must be unique in the content table(no duplicates)
+#### - Each content id must be unique in the content table(no duplicates)
 ![Image](assets/images/duplicates.jpg)
 ## - Total reactions recorded after removing blanks (24754)
 ![Image](assets/images/count_reactiontype.jpg)
