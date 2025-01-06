@@ -15,7 +15,6 @@
 ## Data Anlaysis
 ## Data Visualisation
 ## Recommendations
-## Conclusions
 
 # Objective
 Accenture have embarked on a 3 month pilot with Social Buzz to focus on 3 main tasks, aligned with some of the biggest challenges thet are currently facing. Social Buzz has reached huge scale in recent years to become recognized as a global unicorn company. Firstly, the team will be doing an audit of your big data practice and sharing best practices and industry expertise. Secondly we will be guiding you through a successful IPO, of which we have deep expertise and knowledge of within our team. And finally, i have conducted an analysis of your data to find insights regarding social buzz's top 5 most popular categories of content.
@@ -95,4 +94,9 @@ After having the needed column in a single table, futher analysis was carried ou
 Having answered our client questions, its important to put our analysis results in visuals that could be more understandable and communicable to client.
 Using excel, we were able to visualise our analysis results ;
 - What are the top 5 content categories
-  
+![Images](assets/images/excel_5.jpg)  
+![Images](assets/images/excel_five.jpg)
+# Recommendations
+With this result, its important to avoid Animal content being capitalized on, promoting other categories by collaborating with influencers or organizations in the  healthy eating, technology and food niche to amplify more engagements.
+In conclusion, its important to keep tracking engagement patterns to identify new popular topics within these categories.
+![image](https://github.com/user-attachments/assets/ed2dc5e3-5f73-46f4-a918-5125e89d1160)
