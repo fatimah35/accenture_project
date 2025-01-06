@@ -17,7 +17,7 @@
 ## Recommendations
 
 # Objective
-Accenture have embarked on a 3 month pilot with Social Buzz to focus on 3 main tasks, aligned with some of the biggest challenges thet are currently facing. Social Buzz has reached huge scale in recent years to become recognized as a global unicorn company. Firstly, the team will be doing an audit of your big data practice and sharing best practices and industry expertise. Secondly we will be guiding you through a successful IPO, of which we have deep expertise and knowledge of within our team. And finally, i have conducted an analysis of your data to find insights regarding social buzz's top 5 most popular categories of content.
+Accenture have embarked on a 3 month pilot with Social Buzz to focus on 3 main tasks, aligned with some of the biggest challenges that they are currently facing. Social Buzz has reached huge scale in recent years to become recognized as a global unicorn company. Firstly, the team will be doing an audit of your big data practice and sharing best practices and industry expertise. Secondly we will be guiding you through a successful IPO, of which we have deep expertise and knowledge of within our team. And finally, i have conducted an analysis of your data to find insights regarding social buzz's top 5 most popular categories of content.
 ## Data Source
 Data of contents uploaded on social buzz was provided. For this analysis;
 -Content ID is needed
@@ -35,7 +35,7 @@ The datasets are attached to the doc file.
 
 # Data Development
 # Data Exploration 
-#### This was the stage i scanned of what's in the data, errors, inconcsistencies, bugs and corrupted characters
+#### This was the stage i scanned  what's in the data, errors, inconcsistencies, and corrupted characters
 #### I was provided with three datasets, the reaction dataset,content dataset and reaction types dataset
 ####  There are at least 4 columns in each dataset that contain the data we need for this analysis, which signals we have everything we need from the file without needing to contact the client for any more data.
 #### We have more data than we need, so some of these columns would need to be removed.
@@ -65,7 +65,7 @@ from content ``
 | Reactions        | 4                  | Integer, Varchar, Varchar, Date    | No      |
 | Content          | 4                  | Integer, Varchar, Varchar, Varchar | No      |
 # Data Quality Checks
-#### - Reaction type must be character,reaction score must be int,content category must be character
+#### - Reaction type must be character,reaction score must be an integer ,content category must be character
 ![Images](assets/images/data_type_reaction.jpg)
 
 ![Images](assets/images/datatype_reactionscore.jpg)
@@ -119,5 +119,5 @@ Using excel, we were able to visualise our analysis results ;
 
 
 # Recommendations
-With this result, its important to avoid Animal content being capitalized on, promoting other categories by collaborating with influencers or organizations in the  healthy eating, technology and food niche to amplify more engagements.
+With this result, its important to avoid Animal content being capitalized on, promoting other categories by collaborating with influencers or organizations in the healthy eating, technology and food niche to amplify more engagements.
 In conclusion, its important to keep tracking engagement patterns to identify new popular topics within these categories.
