@@ -66,6 +66,9 @@ The datasets are attached to the doc file.
 # Data Validation
 ## - Reaction type must be character,reaction score must be int,content category must be character
 [Images](assets/images/data_type_reaction.jpg)
+
+[Images](assets/images/datatype_reactionscore.jpg)
 ## - Column count,unique reactions (16)
 [Images](assets/images/column_count.jpg)
+
 [Images](assets/images/count_reaction_type.jpg)
