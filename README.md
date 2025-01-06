@@ -77,7 +77,7 @@ from content ``
 
 # Data Analysis
 For this analysis, we're going to focus on the questions below to get the information we need for our client:
-## - What are the top five category ?
+# - What are the top five category ?
 To answer this, we need content id(content table and reactiontype table), content category column (content table), score column (reaction table), reaction type (reactiontypes table). To have all these column in a dataset, we need to join the three tables using sql
 ![Images](assets/images/join_reaction_and_content.jpg)
 ![Images](assets/images/new_dataset.jpg)
@@ -107,12 +107,17 @@ After having the needed column in a single table, futher analysis was carried ou
 Having answered our client questions, its important to put our analysis results in visuals that could be more understandable and communicable to client.
 Using excel, we were able to visualise our analysis results ;
 - What are the top 5 content categories
+
+
 ![Images](assets/images/excel_5.jpg)
 
 
 
 
 ![Images](assets/images/excel_five.jpg)
+
+
+
 # Recommendations
 With this result, its important to avoid Animal content being capitalized on, promoting other categories by collaborating with influencers or organizations in the  healthy eating, technology and food niche to amplify more engagements.
 In conclusion, its important to keep tracking engagement patterns to identify new popular topics within these categories.
