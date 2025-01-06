@@ -86,8 +86,10 @@ To answer this, we need content id(content table and reactiontype table), conten
 After having the needed column in a single table, futher analysis was carried out using count(sum) function in sql
 ![Images](assets/images/top_5.jpg)
 
-What are the bottom five category ?
+What are the bottom five category ? The least five contents category are shown below;
 ![Images](assets/images/bottom_five.jpg)
 
-What is total count of contents by category
-![Images](assets/images/count_category.jpg)
+What is total count of contents by category ?
+![Images](assets/images/count_categories.jpg)
+What is the most uploaded content type?
+![Images](assets/images/content_type.jpg)
