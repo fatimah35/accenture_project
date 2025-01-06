@@ -83,13 +83,13 @@ To answer this, we need content id(content table and reactiontype table), conten
 ![Images](assets/images/join_reaction_and_content.jpg)
 ![Images](assets/images/new_dataset.jpg)
 ![Images](assets/images/joined_all_data.jpg)
-After having the needed column in a single table, futher analysis was carried out using count(sum) function in sql
+After having the needed column in a single table, futher analysis was carried out using count(sum) function in sql. The top five categories are Animals, Science, healthy eating, technology and food.
 ![Images](assets/images/top_5.jpg)
 
-What are the bottom five category ? The least five contents category are shown below;
+What are the bottom five category by scores ? The least five contents category are public speaking, veganism,tennis,dogs and studying
 ![Images](assets/images/bottom_five.jpg)
 
-What is total count of contents by category ?
+What is total count of contents by category ? Total number of contents uploaded on social buzz are shown below with Animals having the highest content of 1897 and public speaking with the least of 1217 
 ![Images](assets/images/count_categories.jpg)
-What is the most uploaded content type?
+What is the most uploaded content type by score? The most uploaded content type is photos (282,848)
 ![Images](assets/images/content_type.jpg)
